@@ -26,10 +26,6 @@ This is a noSQL database using MongoDB that allows for API endpoints to interact
 
 ## Walkthrough Video
 
-[Link to Full Walkthrough Video](https://drive.google.com/file/d/1DwPkonZBtQ_PQzcU4BvixjY4QnE5O7s5/view)
-
-![Walkthrough GIF](public/images/walkthrough.gif)
-
 ## Examples
 
 - User Object:
@@ -40,23 +36,23 @@ This is a noSQL database using MongoDB that allows for API endpoints to interact
 {
   "thoughts": [],
   "friends": [],
-  "_id": "5fc3cf42f6aad9287cce9266",
-  "username": "walkthrough",
-  "email": "walkthrough@test.com",
+  "_id": "xxxxx",
+  "username": "nelle",
+  "email": "nelle@gmail.com",
   "friendCount": 0
 }
 ```
 
 - Thought Object:
-- API Route: GET Request `/api/thoguhts/:id`
+- API Route: GET Request `/api/thoughts/:id`
 - NOTE: performing a GET request without `:id` results in a find all query
 
 ```JSON
 {
-  "_id": "5fc3cf89f6aad9287cce9268",
-  "username": "walkthrough",
-  "thoughtText": "This walkthrough is really easy!",
-  "createdAt": "Nov 29th, 2020 at 10:42 am",
+  "_id": "xxxxx",
+  "username": "nelle",
+  "thoughtText": "This is not your finest hour",
+  "createdAt": "Jul 20th, 2021 at 9:22 pm",
   "reactions": [
     {
       "Reaction Object Elements"
@@ -70,12 +66,12 @@ This is a noSQL database using MongoDB that allows for API endpoints to interact
 
 ```JSON
 {
-        "_id": "5fbd96361c16e50154ffc1e0",
-        "reactionBody": "What a Reaction!",
-        "username": "test",
-        "reactionId": "5fbd96361c16e50154ffc1e1",
-        "createdAt": "Nov 24th, 2020 at 17:24 pm",
-        "id": "5fbd96361c16e50154ffc1e0"
+        "_id": "xxxxx",
+        "reactionBody": "I have never seen anything like it",
+        "username": "nelle",
+        "reactionId": "xxxxx",
+        "createdAt": "Jul 20th, 2021 at 9:22 pm",
+        "id": "xxxxx"
       }
 ```
 
@@ -85,37 +81,37 @@ This is a noSQL database using MongoDB that allows for API endpoints to interact
 {
     "thoughts": [
       {
-        "_id": "5fc2b0fca5ea67208c8e7d32",
-        "username": "suschuk24",
-        "thoughtText": "Testing a new thought today...",
-        "createdAt": "Nov 28th, 2020 at 14:20 pm",
+        "_id": "xxxxx",
+        "username": "indonesia",
+        "thoughtText": "When you realized that you are not the only one suffering",
+        "createdAt": "Jul 20th, 2021 at 9:22 pm",
         "reactions": [
           {
-            "_id": "5fc2b2c0a5885d30d4233750",
-            "username": "suschuk24",
-            "reactionId": "5fc2b2c0a5885d30d4233751",
-            "createdAt": "Nov 28th, 2020 at 14:27 pm",
-            "id": "5fc2b2c0a5885d30d4233750"
+            "_id": "xxxxx",
+            "username": "indonesia",
+            "reactionId": "xxxxx",
+            "createdAt": "Jul 20th, 2021 at 9:22 pm",
+            "id": "xxxxx"
           }
         ],
         "reactionCount": 1
       }
     ],
     "friends": [
-      "5fbd877029c6e94898676e20",
-      "5fbd9a93ba620b19e83721a4",
-      "5fbd86c473c1e819a0b75d33"
+      "xxxxx",
+      "xxxxx",
+      "xxxxx"
     ],
-    "_id": "5fbd86c473c1e819a0b75d33",
-    "username": "suschuk24",
-    "email": "suschuk24@test.com",
+    "_id": "xxxxx",
+    "username": "indonesia",
+    "email": "indonesia@mail.com",
     "friendCount": 3
   }
 ```
 
 ## Usage:
 
-This database gives API endpoints for databse interaction with a soecial networking site.
+- This database gives API endpoints for databse interaction with a soecial networking site.
 
 ## User Story:
 
@@ -135,13 +131,9 @@ This database gives API endpoints for databse interaction with a soecial network
 - WHEN I test API POST and DELETE routes in Insomnia Core
 - THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 
-## Contributor
-
-Nell-e
-
 ## Tests:
 
-Testing completed using InsomniaCore, Checked for typos and bugs
+- InsomniaCore
 
 ## Technologies Used:
 
