@@ -2,25 +2,21 @@
 
 ## Description:
 
-This is a noSQL database using MongoDB that allows for API endpoints to interact with the database. Since this database is designed for a social networking platform, the database contains API endpoints for Users, their thoughts, and their friends' reactions to those thoughts.
+The API Socialist is a Social Networking API created using noSQL database MongoDB that allows for API endpoints to interact with the database.
+The database is designed for a social networking platform.
+It contains API endpoints for Users, The User's Thoughts, and the User's Friends' reactions on their thoughts.
 
 # Table of Contents
 
 - [Repository](#repository)
 - [Walkthrough Video](#walkthrough%20video)
-- [Examples](#examples)
 - [Usage](#usage)
 - [User Story](#user%20story)
 - [Acceptance Criteria](#Acceptance%20criteria)
-- [Contributions](#contributing)
 - [Tests](#tests)
-- [License](#license)
-- [Questions](#questions)
 - [Technologies Used](#languages)
 
 ## Repository:
-
-- [My Github Profile](https://github.com/nellirism)
 
 - [This Repository](https://github.com/nellirism/apisocialist)
 
