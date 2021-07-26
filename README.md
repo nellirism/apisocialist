@@ -1,5 +1,9 @@
 # API Socialist
 
+The challenge is to build an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. This project used Express.js for routing, a MongoDB database, and the Mongoose ODM. In addition to using the Express.js and Mongoose packages, a native JavaScript Date object to format timestamps was also utilized.
+
+The API Socialist application is not deployed nor it is required. Instead a walkthrough video that demonstrates its functionality and all of the following acceptance criteria being met was created in support of this project. A link is included in this README document.
+
 ## Description:
 
 The API Socialist is a Social Networking API created using noSQL database MongoDB that allows for API endpoints to interact with the database.
