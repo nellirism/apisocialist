@@ -22,6 +22,8 @@ It contains API endpoints for Users, The User's Thoughts, and the User's Friends
 
 ## Walkthrough Video
 
+https://user-images.githubusercontent.com/71202250/126928960-170b2632-416b-41bc-857c-72c846b93785.mp4
+
 ## Usage:
 
 - This database gives API endpoints for databse interaction with a soecial networking site.
