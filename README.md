@@ -28,6 +28,9 @@ This is a noSQL database using MongoDB that allows for API endpoints to interact
 
 ## Examples
 
+[getallusers.txt](https://github.com/nellirism/apisocialist/files/6875219/getallusers.txt)
+
+
 - User Object:
 - API Route: GET Request `/api/users/:id`
 - NOTE: performing a GET request without `:id` results in a find all query
